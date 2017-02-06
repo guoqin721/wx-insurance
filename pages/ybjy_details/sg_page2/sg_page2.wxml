@@ -1,0 +1,7 @@
+<!--pages/ybjy_details/sg_page1/sg_page2.wxml-->
+<view class="con-page-title">身故赔偿</view>
+<view class="page-txt-box">
+    <view class="page-txt">若您不幸身故，您的受益人将可获得即时保证金额$226,500及首10年因身故额外$113,250的赔偿，扣除所有已付的预支保额，加上特级花红。
+    </view>
+<view class="page-comment page-txt">备注：特级花红并非保证，特级花红只会在第5个保单周年日或以后派发。而于退保时之特级花红可能较身故赔偿及危疾赔偿时的金额为低。</view>
+</view>

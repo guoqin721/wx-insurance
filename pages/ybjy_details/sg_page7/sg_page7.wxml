@@ -1,0 +1,142 @@
+<view class="con-page-title">保障疾病一览表</view>
+<view class="page-txt-box">
+    <view class="rank1 rank">I. 危疾保障包括下列54种疾病：</view>
+    <view class="rank2 rank">甲. 严重疾病：</view>
+    <view class="rank3 rank">第1类 癌症</view>
+    <view class="rank4 rank">1. 癌</view>
+    <view class="rank3 rank">第2类 与心脏相关之疾病</view>
+    <view class="rank4 rank">2. 心肌病</view>
+    <view class="rank4 rank">3. 冠状动脉手术</view>
+    <view class="rank4 rank">4. 心脏病</view>
+    <view class="rank4 rank">5. 心瓣置换及修补</view>
+    <view class="rank4 rank">6. 传染性心内膜炎</view>
+    <view class="rank4 rank">7. 其他严重的冠状动脉疾病</view>
+    <view class="rank4 rank">8. 肺动脉高血压(原发性)</view>
+    <view class="rank4 rank">9. 主动脉手术</view>
+    <view class="rank3 rank">第3类 与神经系统相关之疾病</view>
+    <view class="rank4 rank">10. 亚尔兹默氏病/ 不可还原之器质性脑退化疾病</view>
+    <view class="rank4 rank">11. 植物人</view>
+    <view class="rank4 rank">12. 细菌性脑(脊)膜炎</view>
+    <view class="rank4 rank">13. 良性脑肿瘤</view>
+    <view class="rank4 rank">14. 昏迷</view>
+    <view class="rank4 rank">15. 脑炎</view>
+    <view class="rank4 rank">16. 偏瘫</view>
+    <view class="rank4 rank">17. 严重头部创伤</view>
+    <view class="rank4 rank">18. 运动神经原疾病</view>
+    <view class="rank4 rank">19. 多发性硬化症</view>
+    <view class="rank4 rank">20. 肌营养不良症</view>
+    <view class="rank4 rank">21. 瘫痪</view>
+    <view class="rank4 rank">22. 柏金逊症</view>
+    <view class="rank4 rank">23. 脊髓灰质炎</view>
+    <view class="rank4 rank">24. 进行性核上神经痳痹症</view>
+    <view class="rank4 rank">25. 严重重症肌无力</view>
+    <view class="rank4 rank">26. 中风</view>
+    <view class="rank3 rank">第4类 与主要器官相关之疾病</view>
+    <view class="rank4 rank">27. 急性坏死及出血性胰腺炎</view>
+    <view class="rank4 rank">28. 再生障碍性贫血</view>
+    <view class="rank4 rank">29. 慢性肝病</view>
+    <view class="rank4 rank">30. 末期肺病</view>
+    <view class="rank4 rank">31. 暴发性病毒性肝炎</view>
+    <view class="rank4 rank">32. 肾衰竭</view>
+    <view class="rank4 rank">33. 主要器官移植</view>
+    <view class="rank4 rank">34. 肾髓质囊肿病</view>
+    <view class="rank4 rank">35. 系统性红斑狼疮连狼疮性肾炎</view>
+    <view class="rank4 rank">36. 系统性硬皮病</view>
+    <view class="rank3 rank">第5类 其他严重疾病</view>
+    <view class="rank4 rank">37. 因输血而感染爱滋病</view>
+    <view class="rank4 rank">38. 失明</view>
+    <view class="rank4 rank">39. 慢性肾上腺功能不全(即阿狄森氏病)</view>
+    <view class="rank4 rank">40. 库贾氏病</view>
+    <view class="rank4 rank">41. 伊波拉</view>
+    <view class="rank4 rank">42. 象皮病</view>
+    <view class="rank4 rank">43. 失聪</view>
+    <view class="rank4 rank">44. 失去一肢及一眼</view>
+    <view class="rank4 rank">45. 丧失语言能力</view>
+    <view class="rank4 rank">46. 失去两肢</view>
+    <view class="rank4 rank">47. 严重烧伤</view>
+    <view class="rank4 rank">48. 坏死性筋膜炎(俗称食肉菌感染)</view>
+    <view class="rank4 rank">49. 因职业感染人体免疫力缺乏病毒(HIV)</view>
+    <view class="rank4 rank">50. 嗜铬细胞瘤</view>
+    <view class="rank4 rank">51. 严重类风湿性关节炎</view>
+    <view class="rank4 rank">52. 不能独立生活(保障期至65岁终止)</view>
+    <view class="rank4 rank">53. 末期疾病</view>
+    <view class="rank2 rank">乙. 非严重疾病：</view>
+    <view class="rank4 rank">54. 须作手术之脑动脉瘤</view>
+ <view class="page-txt">严重疾病赔偿金额可达原有基本保额之100%，扣除所有已付的预支保额。而非严重疾病赔偿金额则为原有基本保额之50%。更多详情，请参阅「保障疾病赔偿一览表」。</view>
+    <view class="rank1 rank">II. 早期危疾保障包括下列39种疾病：</view>
+    <view class="rank2 rank">甲. 严重疾病：</view>
+    <view class="rank3 rank">第1类 癌症</view>
+    <view class="rank4 rank">1. 原位癌</view>
+    <view class="rank4 rank">2. 早期恶性肿瘤</view>
+    <view class="rank3 rank">第2类 与心脏相关之疾病</view>
+    <view class="rank4 rank">3. 主动脉疾病的血管介入治疗或主动脉瘤</view>
+    <view class="rank4 rank">4. 心瓣膜疾病的次级创伤性治疗</view>
+    <view class="rank4 rank">5. 次级严重心脏疾病</view>
+    <view class="rank4 rank">6. 微创进行直接的冠状动脉搭桥手术</view>
+    <view class="rank4 rank">7. 经皮穿刺冠状动脉介入</view>
+    <view class="rank3 rank">第3类 与神经系统相关之疾病</view>
+    <view class="rank4 rank">8. 于颈动脉进行血管成形术或内膜切除术</view>
+    <view class="rank4 rank">9. 植入大脑内分流器</view>
+    <view class="rank4 rank">10. 早期脑退化症（包括早期亚尔兹海默氏症）</view>
+    <view class="rank4 rank">11. 大脑动脉瘤的血管介入治疗</view>
+    <view class="rank4 rank">12. 次级严重细菌性脑(脊)膜炎</view>
+    <view class="rank4 rank">13. 次级严重昏迷</view>
+    <view class="rank4 rank">14. 次级严重脑炎</view>
+    <view class="rank4 rank">15. 中度严重脑部损伤</view>
+    <view class="rank4 rank">16. 中度严重瘫痪</view>
+    <view class="rank4 rank">17. 严重精神病</view>
+    <view class="rank4 rank">18. 脑硬膜下血肿手术</view>
+    <view class="rank4 rank">19. 脑下垂体肿瘤切除手术</view>
+    <view class="rank3 rank">第4类 与主要器官相关之疾病</view>
+    <view class="rank4 rank">20. 胆道重建手术</view>
+    <view class="rank4 rank">21. 慢性肺病</view>
+    <view class="rank4 rank">22. 肝炎连肝硬化</view>
+    <view class="rank4 rank">23. 次级严重再生障碍性贫血</view>
+    <view class="rank4 rank">24. 次级严重肾脏疾病</view>
+    <view class="rank4 rank">25. 次级严重系统性红斑狼疮</view>
+    <view class="rank4 rank">26. 肝脏手术</view>
+    <view class="rank4 rank">27. 主要器官移植(于器官移植轮候册名单上)</view>
+    <view class="rank4 rank">28. 单肺切除手术</view>
+    <view class="rank3 rank">第5类 其他疾病</view>
+    <view class="rank4 rank">29. 糖尿病视网膜病变</view>
+    <view class="rank4 rank">30. 周围动脉疾病的血管介入治疗</view>
+    <view class="rank4 rank">31. 意外引致的脸部烧伤</view>
+    <view class="rank4 rank">32. 意外受伤所需的面容重建手术</view>
+    <view class="rank4 rank">33. 意外引致的次级严重身体烧伤</view>
+    <view class="rank4 rank">34. 单耳失聪</view>
+    <view class="rank4 rank">35. 失去一肢</view>
+    <view class="rank4 rank">36. 单眼失明</view>
+    <view class="rank4 rank">37. 骨质疏松症连骨折(保障期至70岁终止)</view>
+    <view class="rank4 rank">38. 严重阻塞性睡眠窒息症</view>
+    <view class="rank4 rank">39. 严重中枢神经性睡眠窒息症或混合性睡眠窒息症</view>
+    <view class="rank1 rank" style="margin-top:45rpx;">III.严重儿童疾病保障包括：</view>
+    <view class="rank4 rank">1. 自闭症</view>
+    <view class="rank4 rank">2. 因疾病或受伤导致智力缺陷</view>
+    <view class="rank4 rank">3. 胰岛素依赖型糖尿病</view>
+    <view class="rank4 rank">4. 俱心脏并发症的川崎病</view>
+    <view class="rank4 rank">5. 成骨不全症第三型</view>
+    <view class="rank4 rank">6. 严重哮喘</view>
+    <view class="rank4 rank">7. 斯蒂尔病</view>
+    <view class="page-txt">每种早期危疾(除「骨质疏松症连骨折」)及严重儿童疾病的预支赔偿金额为原有基本保额之20%。而「骨质疏松症连骨折」的预支赔偿金额为原有基本保额之10% 。更多详情，请参阅「保障疾病赔偿一览表」。</view>
+</view>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

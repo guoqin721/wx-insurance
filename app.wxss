@@ -1,0 +1,112 @@
+/**app.wxss**/
+page{
+    background: #fff;
+}
+image{
+    height: 100%;
+    width: 100%;
+}
+.red{
+  color:#b1242e;
+}
+.red2{
+    color:#e42723;
+}
+.blue{
+    color: #00529b;
+}
+view{
+  font-family: "PingFangSC-Regular";
+  font-size: 28rpx;
+}
+.wxrow{
+    clear:both;
+}
+.wxcol{
+    float: left;
+    text-align: center;
+}
+.con-page-title{
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #b1242e;
+    border-bottom: 2rpx solid #b1242e;
+    text-align: left;
+    padding-left:10rpx;
+    margin: 0 auto;
+    margin-bottom: 30rpx; 
+    font-size: 40rpx;
+    width: 90%;
+}
+.con-page-title2{
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #00529b;
+    border-bottom: 2rpx solid #00529b;
+    text-align: left;
+    padding-left:10rpx;
+    margin: 0 auto;
+    margin-bottom: 30rpx; 
+    font-size: 40rpx;
+    width: 90%;
+}
+.con-page-title3{
+     height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 2rpx solid #e42723;
+    text-align: left;
+    padding-left:10rpx;
+    margin: 0 auto;
+    margin-bottom: 30rpx; 
+    font-size: 40rpx;
+    width: 90%;
+    color: #e42723;
+}
+.page-txt-box{
+    margin: auto;
+    width: 90%;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+    margin-bottom: 60rpx;
+}
+.page-txt{
+    margin-bottom: 10rpx;
+}
+.start{
+    display: inline-block;
+    font-size: 20rpx;
+    position:relative;
+    top:-8rpx;
+
+}
+.page-comment{
+    margin-top: 70rpx;
+}
+.rank{
+    height: 45rpx;
+    line-height: 45rpx;
+    font-size: 28rpx;
+}
+.rank1{
+    height: 55rpx;
+    line-height: 55rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+    color: #b1242e;
+}
+.rank2{
+    padding-left:25rpx;
+    font-weight: bold;
+    color: #b1242e;
+}
+.rank3{
+    color: #b1242e;
+    padding-left: 40rpx;
+}
+.rank4{
+    padding-left: 55rpx;
+}
+.i{
+    font-weight: bold;
+    display: inline-block;
+}

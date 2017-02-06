@@ -1,0 +1,4 @@
+.page-txt{
+    padding: 30rpx 0;
+    font-size: 20rpx;
+}

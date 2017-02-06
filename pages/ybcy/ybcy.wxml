@@ -1,0 +1,116 @@
+<view class="container">
+    <view class="company-logo">
+        <image src="../../images/logo/youbang.png"></image>
+    </view>
+    <view class="company-name">
+        友邦保险（国际）有限公司
+    </view>
+    <view class="proposal">
+        全面保障建议书
+    </view>
+    <view class="pro-tab-box">
+        <view class="pro-tab">
+            <view class="pro-thead">
+                受保人资料
+            </view>
+            <view class="pro-wxtab">
+            <view wx:for="{{proTab.rows}}" wx:for-index="i" wx:key="proTabRow" class="proTabRow wxrow" style="height:{{item.height}}rpx;line-height:{{item.height}}rpx;">
+                <view wx:for="{{proTab.cols}}" wx:for-index="j" wx:key="proTabCol" class="proTabCol wxcol" style="width:{{item.width}}%">
+                   {{proTab.data.classifies[i][j].name}}
+                </view>
+            </view>
+        </view>
+       </view>
+    </view>
+    <view class="guar-tab-box"> 
+        <view wx:for="{{guarTab.rows}}" wx:for-index="i" wx:key="guarTabRow" class="guarTabRow wxrow" >
+            <view wx:for="{{guarTab.cols}}" wx:for-index="j" wx:key="guarTabCol" class="guarTabCol wxcol" >
+                {{guarTab.data.classifies[i][j].name}}
+            </view>
+        </view>
+    </view>
+   <view class="safeguard-title">
+     <view class="safeguard part-title">基本保单利益摘要</view>
+   </view>
+   <view class="safeguard-txt">
+    「充裕未来」计划是为寻找长线储蓄(而不是短期回报)的人士而设。若您有意于保单早期时退保，您不应投保此计划。提早退保而取回的利益可能会大幅度少于您所缴付的保费，即您可能会因此而承受损失。
+   </view>
+   <view class="sg-details">
+    <view class="sg-det-box">(1) 透过<view class="i">限期定额供款</view>，您可安心地及早计划将来。</view>
+    <view class="sg-det-box" style="margin-bottom:10rpx;">(2) <view class="i">现金价值总额</view>摘要：</view>
+    <view class="cash-value-tab">
+        <view class="cash-tab-tr">
+            <view class="cash-tab-td">保单年度完结</view>
+            <view class="cash-tab-td">现金价值总额(美元, 红利及花红之部份为非保证)</view>
+        </view>
+        <view class="cash-tab-tr">
+            <view class="cash-tab-td">20</view>
+            <view class="cash-tab-td">34,386</view>
+        </view>
+        <view class="cash-tab-tr">
+            <view class="cash-tab-td">30</view>
+            <view class="cash-tab-td">73,692</view>
+        </view>
+    </view>
+    <view class="exp-more red"bindtap="sg_page1">现金价值总额>></view>
+    <view class="sg-det-box">(3)<view class="i"> 送给挚爱家人的保障︰</view></view>
+    <view class="page-txt-box">
+    <view class="page-txt">若受保人不幸身故离开，受益人将可获得以下之较高者︰</view>
+    <view class="page-txt">(i) 保证现金价值加复归红利的面值(如有)及额外花红的面值(如有)或</view>
+    <view class="page-txt">(ii) 就基本保单到期及已缴保费的105%，以较高者为准；扣除保单贷款(如有)。</view>
+    <view class="page-txt">若受保人于基本保单的缮发日期或保单日期（以较后者为准）起计12个月内因意外身故，受益人可额外获得相等于就基本保单已付的保费总和之意外身故赔偿，惟该赔偿金额及任何其他「充裕未来」计划就同一受保
+人应支付及/或已支付之意外身故赔偿金额合计不得超过100,000美元之个人最高限额。</view>
+</view>
+   </view>
+   <view class="explain-title">
+     <view class="safeguard part-title">基本保单利益说明</view>
+   </view>
+   <view class="exp-part exp-part1 red">1. 基本保单摘要  「充裕未来」计划 (5年缴费) (货币:美元)</view>
+   <view class="ensure">
+      <view class="p1-left">投保时之面值 :</view>
+      <view class="p1-right">$25,000</view>
+   </view>
+   <view class="premium">
+      <view class="p1-left">投保时之年缴保费 :</view>
+      <view class="p1-right">$2,500.00</view>
+   </view>
+   <view class="exp-part exp-part2 red">2.基本保单说明摘要  「充裕未来」计划 (5年缴费) (货币:美元)</view>
+   <view class="exp-tab-box"> 
+        <view wx:for="{{expTab.rows}}" wx:for-index="i" wx:key="expTabRow" class="expTabRow wxrow" >
+            <view wx:for="{{expTab.cols}}" wx:for-index="j" wx:key="expTabCol" class="expTabCol wxcol" >
+               <view class="expTab-year">{{expTab.data.classifies[i][j].year}}</view>
+                <view class="expTab-damage">{{expTab.data.classifies[i][j].damage}}</view>
+                <view class="expTab-cash">{{expTab.data.classifies[i][j].cash}}</view>
+                <view class="expTab-premium">{{expTab.data.classifies[i][j].premium}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="exp-more red"bindtap="explain">说明>></view>
+    <view class="explain-title">
+     <view class="safeguard part-title">其他保单价值说明</view>
+   </view>
+   <view class="oth-tab-box"> 
+        <view wx:for="{{othTab.rows}}" wx:for-index="i" wx:key="othTabRow" class="othTabRow wxrow" >
+            <view wx:for="{{othTab.cols}}" wx:for-index="j" wx:key="othTabCol" class="othTabCol wxcol" >
+               <view class="othTab-year">{{othTab.data.classifies[i][j].year}}</view>
+                <view class="othTab-damage">{{othTab.data.classifies[i][j].damage}}</view>
+                <view class="othTab-cash">{{othTab.data.classifies[i][j].cash}}</view>
+            </view>
+        </view>
+        <view class="exp-more red"bindtap="sg_page2">说明>></view>
+    </view>
+</view>
+     
+
+ 
+
+
+
+
+
+
+
+
+
+
+

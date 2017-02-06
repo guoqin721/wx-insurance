@@ -1,0 +1,17 @@
+<view class="header">
+    <image src="../../images/header.jpg"></image>
+</view>
+<view class="insurance">
+    <view class="insurance-img" bindtap="ybjy">
+        <image src="../../images/yb_jy.jpg"></image>
+    </view>
+    <view class="insurance-img"bindtap="ybcy">
+        <image src="../../images/yb_cy.jpg"></image>
+    </view>
+    <view class="insurance-img"bindtap="bcys">
+        <image src="../../images/baocheng.jpg"></image>
+    </view>
+    <view class="insurance-img"bindtap="asaj">
+        <image src="../../images/ansheng.jpg"></image>
+    </view>
+</view>

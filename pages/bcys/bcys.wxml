@@ -1,0 +1,87 @@
+<view class="container">
+    <view class="company-logo">
+        <image src="../../images/logo/baocheng.jpg"></image>
+    </view>
+    <view class="proposal">
+        建议书概览
+    </view>
+    <view class="pro-tab-box">
+        <view class="pro-tab">
+            <view class="pro-thead">
+                受保人资料
+            </view>
+            <view class="pro-wxtab">
+            <view wx:for="{{proTab.rows}}" wx:for-index="i" wx:key="proTabRow" class="proTabRow wxrow" style="height:{{item.height}}rpx;line-height:{{item.height}}rpx;">
+                <view wx:for="{{proTab.cols}}" wx:for-index="j" wx:key="proTabCol" class="proTabCol wxcol" style="width:{{item.width}}%">
+                   {{proTab.data.classifies[i][j].name}}
+                </view>
+            </view>
+        </view>
+       </view>
+    </view>
+
+    <view class="guar-tab-box"> 
+        <view wx:for="{{guarTab.rows}}" wx:for-index="i" wx:key="guarTabRow" class="guarTabRow wxrow" >
+            <view wx:for="{{guarTab.cols}}" wx:for-index="j" wx:key="guarTabCol" class="guarTabCol wxcol" >
+                {{guarTab.data.classifies[i][j].name}}
+            </view>
+        </view>
+    </view>
+    <view class="safeguard-txt" style="padding:0rpx;margin-bottom:10rpx;">
+    * 最低身故賠償金額為就基本計劃已繳總基本保費(不包括附加保障保費)，並另加2,500美元，扣除任何未償還之貸款及利息及在保單生效期間所套現之任何紅利現金價值。
+   </view>
+   <view class="safeguard-txt"style="padding:0rpx;">
+   43,400美元之金額僅屬名義性質(“名義金額”)，只用作計算本基本計劃保費、紅利及其他保單價值的金額。有關身故賠償詳情，請參閱本保單之條款及細則。
+   </view>
+   <view class="explain-title">
+     <view class="safeguard part-title">基本计划说明摘要</view>
+   </view>
+   <view class="exp-part exp-part1 red2">1. 基本计划  「雋陞」儲蓄保障計劃(EGS)-累積財富 (货币: 美元)</view>
+   <view class="ensure">
+      <view class="p1-left">基本保单额:</view>
+      <view class="p1-right">不适用</view>
+   </view>
+   <view class="premium">
+      <view class="p1-left">每年保费：</view>
+      <view class="p1-right">美元 4,044.88</view>
+   </view>
+   <view class="exp-part exp-part2 red2">2.基本计划  「雋陞」儲蓄保障計劃(EGS)-累積財富 (货币: 美元)</view>
+   <view class="exp-tab-box"> 
+        <view wx:for="{{expTab.rows}}" wx:for-index="i" wx:key="expTabRow" class="expTabRow wxrow" >
+            <view wx:for="{{expTab.cols}}" wx:for-index="j" wx:key="expTabCol" class="expTabCol wxcol" >
+               <view class="expTab-year">{{expTab.data.classifies[i][j].year}}</view>
+                <view class="expTab-damage">{{expTab.data.classifies[i][j].damage}}</view>
+                <view class="expTab-cash">{{expTab.data.classifies[i][j].cash}}</view>
+                <view class="expTab-premium">{{expTab.data.classifies[i][j].premium}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="exp-more red2"bindtap="explain" style="margin-bottom:0rpx;">说明>></view>
+    <view class="explain-title"  style="margin-top:0rpx;">
+     <view class="safeguard part-title">其他保单价值说明</view>
+   </view>
+   <view class="oth-tab-box" > 
+        <view wx:for="{{othTab.rows}}" wx:for-index="i" wx:key="othTabRow" class="othTabRow wxrow" >
+            <view wx:for="{{othTab.cols}}" wx:for-index="j" wx:key="othTabCol" class="othTabCol wxcol" >
+               <view class="othTab-year">{{othTab.data.classifies[i][j].year}}</view>
+                <view class="othTab-damage">{{othTab.data.classifies[i][j].damage}}</view>
+                <view class="othTab-cash">{{othTab.data.classifies[i][j].cash}}</view>
+            </view>
+        </view>
+     <view class="exp-more red2"bindtap="sg_page1">说明>></view>
+    </view>
+</view>
+     
+
+ 
+
+
+
+
+
+
+
+
+
+
+

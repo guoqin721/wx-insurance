@@ -1,0 +1,86 @@
+<view class="container">
+    <view class="company-logo">
+        <image src="../../images/logo/youbang.png"></image>
+    </view>
+    <view class="company-name">
+        友邦保险（国际）有限公司
+    </view>
+    <view class="proposal">
+        全面保障建议书
+    </view>
+    <view class="pro-tab-box">
+        <view class="pro-tab">
+            <view class="pro-thead">
+                受保人资料
+            </view>
+            <view class="pro-wxtab">
+            <view wx:for="{{proTab.rows}}" wx:for-index="i" wx:key="proTabRow" class="proTabRow wxrow" style="height:{{item.height}}rpx;line-height:{{item.height}}rpx;">
+                <view wx:for="{{proTab.cols}}" wx:for-index="j" wx:key="proTabCol" class="proTabCol wxcol" style="width:{{item.width}}%">
+                   {{proTab.data.classifies[i][j].name}}
+                </view>
+            </view>
+        </view>
+       </view>
+    </view>
+    <view class="guar-tab-box"> 
+        <view wx:for="{{guarTab.rows}}" wx:for-index="i" wx:key="guarTabRow" class="guarTabRow wxrow" >
+            <view wx:for="{{guarTab.cols}}" wx:for-index="j" wx:key="guarTabCol" class="guarTabCol wxcol" >
+                {{guarTab.data.classifies[i][j].name}}
+            </view>
+        </view>
+    </view>
+   <view class="safeguard-title">
+     <view class="safeguard part-title">保障及利益摘要</view>
+   </view>
+   <view class="safeguard-txt">
+    加裕倍安保(加强版)(25年缴费)是一个具备人寿及危疾保障的产品。当中更提供早期危疾保障及癌症多重保障。而于不幸患上危疾时，能让您安心休养，为自己及家人提供可靠的后盾。只需于25年供款期内做定额供款，便可终身享有基本保单条文内列明的保障和利益。
+   </view>
+   <view class="sg-details">
+     <view class="sg-det-box sg-det-box1" bindtap="sg_page1"><view class="sg-page1"> 升级保障</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="sg_page2"><view class="sg-page2"> 身故赔偿</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="sg_page3"><view class="sg-page3"> 严重及非严重疾病保障</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="sg_page4"><view class="sg-page4"> 癌症多重保障</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="sg_page5"><view class="sg-page5"> 早期危疾及严重儿童疾病保障</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="sg_page6"><view class="sg-page6"> 附加契约可于严重疾病赔偿后继续生效</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="sg_page7"><view class="sg-page7"> 保障疾病一览表</view><view class="arrow-right">></view></view>
+     <view class="sg-det-box"bindtap="unguar"><view class="sg-page7"> 主要不保事项</view><view class="arrow-right">></view></view>
+   </view>
+   <view class="explain-title">
+     <view class="safeguard part-title">基本保单利益说明</view>
+   </view>
+   <view class="exp-part exp-part1 red">1. 基本保单摘要  加裕倍安保（加强版）（25年缴费） (货币: 美元)</view>
+   <view class="ensure">
+      <view class="p1-left">投保时之保障额 :</view>
+      <view class="p1-right">$226,500</view>
+   </view>
+   <view class="premium">
+      <view class="p1-left">投保时之年缴保费 :</view>
+      <view class="p1-right">$2,000.00</view>
+   </view>
+   <view class="exp-part exp-part2 red">2.基本保单说明摘要  加裕倍安保（加强版）（25年缴费）  (货币: 美元)</view>
+   <view class="exp-tab-box"> 
+        <view wx:for="{{expTab.rows}}" wx:for-index="i" wx:key="expTabRow" class="expTabRow wxrow" >
+            <view wx:for="{{expTab.cols}}" wx:for-index="j" wx:key="expTabCol" class="expTabCol wxcol" >
+               <view class="expTab-year">{{expTab.data.classifies[i][j].year}}</view>
+                <view class="expTab-damage">{{expTab.data.classifies[i][j].damage}}</view>
+                <view class="expTab-cash">{{expTab.data.classifies[i][j].cash}}</view>
+                <view class="expTab-premium">{{expTab.data.classifies[i][j].premium}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="exp-more red"bindtap="explain">说明>></view>
+</view>
+     
+
+ 
+
+
+
+
+
+
+
+
+
+
+

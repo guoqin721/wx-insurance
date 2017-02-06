@@ -1,0 +1,38 @@
+
+<view class="con-page-title">附加契约</view>
+<view class="page-txt-box">
+    <view class="add-box">
+      <view class="p1-left"> 计划:</view>
+      <view class="p1-right">加裕倍安保（加强版）</view>
+      <view class="p1-right2">货币:美元</view>
+   </view>
+    <view class="add-box">
+      <view class="p1-left">基本保额:</view>
+      <view class="p1-right">$226,500</view>
+   </view>
+    <view class="add-box">
+      <view class="p1-left">全年保费:</view>
+      <view class="p1-right">免保费</view>
+   </view>
+
+    <view class="page-txt page-txt-title">1、倘受保人为儿童</view>
+    <view class="page-txt-con">而因推定残废而被视为完全及永久残废4，相等于此附加契约保障额的该部分基本保单保障额之应付保费将会获得豁免。</view>
+    <view class="page-txt page-txt-title">2、倘受保人不再是儿童</view>
+    <view class="page-txt-con">而于六十岁前因受伤或疾病导致完全及永久残废4，相等于此附加契约保障额的该部分基本保单保障额之应付保费将会获
+得豁免。</view>
+    <view class="page-txt page-txt-title">3、不保事项</view>
+    <view class="page-txt-con">本附加契约主要并不承保任何由以下引起之残废：</view>
+    <view class="page-txt-con">  - 自致之伤害。</view>
+    <view class="page-txt-con">  - 任何在受保人在十七岁前已出现或被诊断的先天性疾病。</view>
+    <view class="page-txt" style="margin-top:70rpx;">备注：免供免付保费附加契约可于严重疾病赔偿后继续生效，其权益只给予一般标准受保人。</view>
+    <view class="page-txt">1、基本保单必须为成功申请及以标准保费率缮发。</view>
+    <view class="page-txt">2、受保人于此基本保单或其他保单附加之任何免供免付保费附加契约及免供特级预支保额及免付保费附加契约合共之个人总保额不可超过美元300,000/港元2,250,000。</view>
+    <view class="page-txt">3、当受保人(以较先者为准)：1)年满十六岁后受雇或自雇以赚取报酬；或2)年满十八后，将定义不再是儿童。</view>
+    <view class="page-txt">4、残废的定义将详载于推定残废批注上。</view>
+</view>
+
+
+
+
+
+

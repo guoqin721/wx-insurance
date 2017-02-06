@@ -1,0 +1,8 @@
+{
+ "navigationBarTitleText": "隽升储蓄保险计划书",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

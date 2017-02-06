@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">标题1</view>
+            <view class="th">标题2</view>
+            <view class="th">标题3</view>
+            <view class="th">标题4</view>
+            <view class="th">标题5</view>
+        </view>
+        <view class="tr" wx:for="{{5}}" wx:key="table">
+            <view class="td">{{index}}</view>
+            <view class="td">{{index}}</view>
+            <view class="td">{{index}}</view>
+            <view class="td">{{index}}</view>
+            <view class="td">{{index}}</view>
+        </view>
+    </view>
+</view>

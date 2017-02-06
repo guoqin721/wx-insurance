@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/test/test",
+    "pages/logs/logs",
+    "pages/ybjy/ybjy",
+    "pages/ybjy_details/sg_page1/sg_page1",
+    "pages/ybjy_details/sg_page2/sg_page2",
+    "pages/ybjy_details/sg_page3/sg_page3",
+    "pages/ybjy_details/sg_page4/sg_page4",
+    "pages/ybjy_details/sg_page5/sg_page5",
+    "pages/ybjy_details/sg_page6/sg_page6",
+    "pages/ybjy_details/sg_page7/sg_page7",
+    "pages/ybjy_details/unguar/unguar",
+    "pages/ybjy_details/explain/explain",
+    "pages/ybcy/ybcy",
+    "pages/ybcy_details/sg_page1/sg_page1",
+    "pages/ybcy_details/sg_page2/sg_page2",
+    "pages/ybcy_details/explain/explain",
+    "pages/bcys/bcys",
+    "pages/bcys_details/sg_page1/sg_page1",
+    "pages/bcys_details/explain/explain",
+    "pages/asaj/asaj",
+    "pages/asaj_details/sg_page1/sg_page1",
+    "pages/asaj_details/explain/explain"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "保险",
+    "navigationBarTextStyle":"black"
+  }
+}

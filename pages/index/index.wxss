@@ -1,0 +1,17 @@
+image{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 300rpx;
+}
+.insurance{
+    background: #f2f2f2;
+    margin: 18rpx 30rpx 16rpx;
+}
+.insurance-img{
+    width: 689rpx;
+    height: 201rpx;
+    margin-bottom: 18rpx;
+}

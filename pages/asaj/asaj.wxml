@@ -1,0 +1,66 @@
+<view class="container">
+    <view class="company-logo">
+        <image src="../../images/logo/ansheng.jpg"></image>
+    </view>
+    <view class="company-name">
+        安盛保险有限公司
+    </view>
+    <view class="proposal">
+        诚意为您设计的建议书
+    </view>
+    <view class="insur-name">安进储蓄计划-5</view>
+    <view class="insur-info"><view class="person-name">被保人：VIP先生</view><view class="person-age">年龄：0</view></view>
+    <view class="insur-info-title">您的计划及保费</view>
+    <view class="pro-tab-box">
+        <view class="pro-tab">
+            <view class="pro-wxtab">
+                <view wx:for="{{proTab.rows}}" wx:for-index="i" wx:key="proTabRow" class="proTabRow wxrow" >
+                    <view wx:for="{{proTab.cols}}" wx:for-index="j" wx:key="proTabCol" class="proTabCol wxcol" style="width:{{item.width}}%">
+                    {{proTab.data.classifies[i][j].name}}
+                    </view>
+                </view>
+            </view>
+       </view>
+    </view>
+     <view class="pro-explain">附注：</view>
+     <view class="pro-explain">保费固定及保证不变。保费只需缴付五年。</view>
+     <view class="pro-explain">安进储蓄计划-5之保额/保障只用作计算保费、非保证红利及相关保单价值。身故赔偿请参照在[身故赔偿]的[利益说明内[总额]一栏内之数值。</view>
+    <view class="insur-info-title">利益说明</view>
+   <view class="exp-part exp-part2 blue">1.基本计划-说明摘要 安进储蓄计划-5 (货币: 美元)</view>
+   <view class="exp-tab-box"> 
+        <view wx:for="{{expTab.rows}}" wx:for-index="i" wx:key="expTabRow" class="expTabRow wxrow" >
+            <view wx:for="{{expTab.cols}}" wx:for-index="j" wx:key="expTabCol" class="expTabCol wxcol" >
+               <view class="expTab-year">{{expTab.data.classifies[i][j].year}}</view>
+                <view class="expTab-damage">{{expTab.data.classifies[i][j].damage}}</view>
+                <view class="expTab-cash">{{expTab.data.classifies[i][j].cash}}</view>
+                <view class="expTab-premium">{{expTab.data.classifies[i][j].premium}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="exp-more blue"bindtap="explain">解释附注>></view>
+    <view class="insur-info-title">其他保单价值说明</view>
+   <view class="oth-tab-box"> 
+        <view wx:for="{{othTab.rows}}" wx:for-index="i" wx:key="othTabRow" class="othTabRow wxrow" >
+            <view wx:for="{{othTab.cols}}" wx:for-index="j" wx:key="othTabCol" class="othTabCol wxcol" >
+               <view class="othTab-year">{{othTab.data.classifies[i][j].year}}</view>
+                <view class="othTab-damage">{{othTab.data.classifies[i][j].damage}}</view>
+                <view class="othTab-cash">{{othTab.data.classifies[i][j].cash}}</view>
+            </view>
+        </view>
+     <view class="exp-more blue"bindtap="sg_page1">解释附注>></view>
+    </view>
+</view>
+     
+
+ 
+
+
+
+
+
+
+
+
+
+
+
